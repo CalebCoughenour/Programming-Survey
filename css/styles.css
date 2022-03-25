@@ -3,3 +3,11 @@ h1 {
   text-decoration: underline;
   font-size: 50px;
 }
+
+
+
+
+
+#c-reveal, #javascript-reveal, #python-reveal {
+  display: none;
+}
