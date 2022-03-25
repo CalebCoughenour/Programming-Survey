@@ -10,10 +10,10 @@ $(document).ready(function() {
     const sourceAnswer = parseInt($("#source").val());
     const libraryAnswer = parseInt($("#libraries").val());
     const blocksAnswer = parseInt($("#code-blocks").val());
-    const typeCastingAnswer = parseInt($("#type-casting").val());
+    const typecastingAnswer = parseInt($("#typecasting").val());
     const interpretAnswer = parseInt($("#interpreter").val());
     
-    const totalValue = add(langAnswer, sourceAnswer, libraryAnswer,  blocksAnswer,  typeCastingAnswer, interpretAnswer);
+    const totalValue = add(langAnswer, sourceAnswer, libraryAnswer,  blocksAnswer,  typecastingAnswer, interpretAnswer);
 
     if (totalValue <= 8) {
       $("#python-reveal").show();
