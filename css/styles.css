@@ -10,7 +10,10 @@ h1 {
 
 
 .jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: whitesmoke;
+  border: 1px solid black;
 }
 
 .highlight {
@@ -24,6 +27,7 @@ h1 {
 
 .card {
   background-color: whitesmoke;
+  border: 1px solid black;
 }
 
 

@@ -19,7 +19,7 @@ $(document).ready(function() {
       $("#python-reveal").show();
       $("#javascript-reveal").hide();
       $("#c-reveal").hide();
-    } else if (totalValue < 10) {
+    } else if (totalValue <= 10) {
       $("#javascript-reveal").show();
       $("#python-reveal").hide();
       $("#c-reveal").hide();
