@@ -17,13 +17,12 @@ p {
 }
 
 img {
-  margin: auto;
-  padding: 10px;
   display: block;
   border: 2px solid black;
   float: right;
   height: 550px;
   width: 62%;
+  object-fit: fill;
 }
 
 .jumbotron {
@@ -70,7 +69,7 @@ img {
 }
 
 
-#c-reveal, #javascript-reveal, #python-reveal {
+.c-reveal, .javascript-reveal, .python-reveal {
   display: none;
   margin-bottom: 50px;
   text-align: center;

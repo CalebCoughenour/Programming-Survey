@@ -15,17 +15,17 @@ $(document).ready(function() {
     const totalValue = add(langAnswer, sourceAnswer, libraryAnswer,  blocksAnswer,  typecastingAnswer, interpretAnswer);
 
     if (totalValue <= 8) {
-      $("#python-reveal").fadeIn();
-      $("#javascript-reveal").hide();
-      $("#c-reveal").hide();
+      $(".python-reveal").fadeIn();
+      $(".javascript-reveal").hide();
+      $(".c-reveal").hide();
     } else if (totalValue <= 10) {
-      $("#javascript-reveal").fadeIn();
-      $("#python-reveal").hide();
-      $("#c-reveal").hide();
+      $(".javascript-reveal").fadeIn();
+      $(".python-reveal").hide();
+      $(".c-reveal").hide();
     } else {
-      $("#c-reveal").fadeIn();
-      $("#javascript-reveal").hide();
-      $("#python-reveal").hide();
+      $(".c-reveal").fadeIn();
+      $(".javascript-reveal").hide();
+      $(".python-reveal").hide();
     }
   });
   
@@ -38,9 +38,9 @@ $(document).ready(function() {
 
     $("#reset-button").click(function(event) {
       event.preventDefault();
-      $("#c-reveal").hide();
-      $("#javascript-reveal").hide();
-      $("#python-reveal").hide();
+      $(".c-reveal").hide();
+      $(".javascript-reveal").hide();
+      $(".python-reveal").hide();
     });
 });
 
