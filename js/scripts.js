@@ -18,14 +18,17 @@ $(document).ready(function() {
       $(".python-reveal").fadeIn();
       $(".javascript-reveal").hide();
       $(".c-reveal").hide();
+      $("#hide").hide();
     } else if (totalValue <= 10) {
       $(".javascript-reveal").fadeIn();
       $(".python-reveal").hide();
       $(".c-reveal").hide();
+      $("#hide").hide();
     } else {
       $(".c-reveal").fadeIn();
       $(".javascript-reveal").hide();
       $(".python-reveal").hide();
+      $("#hide").hide();
     }
   });
   
@@ -41,6 +44,7 @@ $(document).ready(function() {
       $(".c-reveal").hide();
       $(".javascript-reveal").hide();
       $(".python-reveal").hide();
+      $("#hide").show();
     });
 });
 
