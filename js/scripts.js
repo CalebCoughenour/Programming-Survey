@@ -6,19 +6,27 @@ function add(number1, number2, number3, number4, number5, number6) {
 $(document).ready(function() {
   $("form#survey-form").submit(function(event) {
     event.preventDefault();
-    const langAnswer = $("#lang-difficulty").val();
-    const sourceAnswer = $("#source").val();
-    const libraryAnswer = $("#libraries").val();
-    const blocksAnswer = $("#code-blocks").val();
-    const typeCastingAnswer = $("#type-casting").val();
-    const interpretAnswer = $("#interpreter").val();
+    const langAnswer = parseInt($("#lang-difficulty").val());
+    const sourceAnswer = parseInt($("#source").val());
+    const libraryAnswer = parseInt($("#libraries").val());
+    const blocksAnswer = parseInt($("#code-blocks").val());
+    const typeCastingAnswer = parseInt($("#type-casting").val());
+    const interpretAnswer = parseInt($("#interpreter").val());
     
-    const totalValue = add(langAnswer, sourceAnswer, libraryAnswer,  blocksAnswer,  typeCastingAnswer, interpretAnswer);
+    const totalValue = (langAnswer + sourceAnswer + libraryAnswer +  blocksAnswer +  typeCastingAnswer + interpretAnswer);
 
-    if (value <= 6) {
-
-    } else if (value is <= 9) {
-
+    if (totalValue <= 7) {
+      $("#python-reveal").show();
+      $("#javascript-reveal").hide();
+      $("#c-reveal").hide();
+    } else if (totalValue < 9) {
+      $("#javascript-reveal").show();
+      $("#python-reveal").hide();
+      $("#c-reveal").hide();
+    } else {
+      $("#c-reveal").show();
+      $("#javascript-reveal").hide();
+      $("#python-reveal").hide();
     }
     
 
