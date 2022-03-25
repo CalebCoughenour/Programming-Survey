@@ -37,12 +37,6 @@ h1 {
   
 }
 
-.card-title:hover {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-
 
 #c-reveal, #javascript-reveal, #python-reveal {
   display: none;
