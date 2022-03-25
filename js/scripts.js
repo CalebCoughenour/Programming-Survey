@@ -39,12 +39,14 @@ $(document).ready(function() {
       $(".users-name").text(usersName);
     });
 
+   
     $("#reset-button").click(function(event) {
       event.preventDefault();
       $(".c-reveal").hide();
       $(".javascript-reveal").hide();
       $(".python-reveal").hide();
       $("#hide").show();
+      $("#survey-form").find('form').reset();
     });
 });
 

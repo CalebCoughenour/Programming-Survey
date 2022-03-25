@@ -24,7 +24,7 @@ _This webpage will ask the user a series of 5 questions. Based off those answers
 
 ## Known Bugs
 
-* No known bugs
+* Reset button does not clear the input fields
 
 ## License
 
