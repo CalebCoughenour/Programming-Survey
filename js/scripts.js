@@ -13,13 +13,13 @@ $(document).ready(function() {
     const typeCastingAnswer = parseInt($("#type-casting").val());
     const interpretAnswer = parseInt($("#interpreter").val());
     
-    const totalValue = (langAnswer + sourceAnswer + libraryAnswer +  blocksAnswer +  typeCastingAnswer + interpretAnswer);
+    const totalValue = add(langAnswer, sourceAnswer, libraryAnswer,  blocksAnswer,  typeCastingAnswer, interpretAnswer);
 
-    if (totalValue <= 7) {
+    if (totalValue <= 8) {
       $("#python-reveal").show();
       $("#javascript-reveal").hide();
       $("#c-reveal").hide();
-    } else if (totalValue < 9) {
+    } else if (totalValue < 10) {
       $("#javascript-reveal").show();
       $("#python-reveal").hide();
       $("#c-reveal").hide();
