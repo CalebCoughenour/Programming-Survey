@@ -2,7 +2,6 @@ function add(number1, number2, number3, number4, number5, number6) {
   return number1 + number2 + number3 + number4 + number5 + number6;
 }
 
-
 $(document).ready(function() {
   $("form#survey-form").submit(function(event) {
     event.preventDefault();
@@ -39,3 +38,4 @@ $(document).ready(function() {
       $(".users-name").text(usersName);
     });
 });
+
