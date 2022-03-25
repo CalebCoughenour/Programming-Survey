@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -5,10 +9,21 @@ h1 {
 }
 
 
+.jumbotron {
+  background-color: whitesmoke;
+}
 
 .highlight {
   background-color: lightgreen;
   width: fit-content;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: whitesmoke;
 }
 
 
