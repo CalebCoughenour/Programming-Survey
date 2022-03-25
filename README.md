@@ -20,11 +20,11 @@ _This webpage will ask the user a series of 5 questions. Based off those answers
 * In a shell program, clone the copied repository to your desktop
 * You can do this using the "git clone" command
 * Open the newly cloned directory named "Programming-Survey"
-* From the top of this directory, open index.html
+* From the top of the directory, open index.html
 
 ## Known Bugs
 
-* Reset button does not clear the input fields
+* _No known bugs_
 
 ## License
 
