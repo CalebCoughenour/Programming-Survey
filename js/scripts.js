@@ -28,8 +28,14 @@ $(document).ready(function() {
       $("#javascript-reveal").hide();
       $("#python-reveal").hide();
     }
-    
-
-
   });
+});
+
+  $(document).ready(function() {
+    $("form#survey-form").submit(function(event) {
+      event.preventDefault();
+      const usersName = $("input#users-name").val();
+
+      $(".users-name").text(usersName);
+    });
 });
