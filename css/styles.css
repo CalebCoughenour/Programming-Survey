@@ -6,9 +6,15 @@ h1 {
 
 
 
+.highlight {
+  background-color: lightgreen;
+  width: fit-content;
+}
+
 
 
 #c-reveal, #javascript-reveal, #python-reveal {
   display: none;
+  margin-bottom: 50px;
 }
 
