@@ -18,16 +18,28 @@ h1 {
 
 .highlight {
   background-color: lightgreen;
-  width: fit-content;
+  display: inline-block;
+  text-align: center;
 }
 
 .container {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .card {
+  margin-top: 20px;
   background-color: whitesmoke;
   border: 1px solid black;
+}
+
+.card-title {
+  text-decoration: underline;
+  
+}
+
+.card-title:hover {
+  cursor: pointer;
+  color: #0088cc;
 }
 
 
@@ -35,5 +47,6 @@ h1 {
 #c-reveal, #javascript-reveal, #python-reveal {
   display: none;
   margin-bottom: 50px;
+  text-align: center;
 }
 
