@@ -16,6 +16,16 @@ h1 {
   border: 1px solid black;
 }
 
+.btn {
+  margin-top: 20px;
+  border: solid 1px black;
+  background-color: #dde1e6;
+}
+
+.btn:hover {
+  background-color: #a7a2a2;
+}
+
 .highlight {
   background-color: lightgreen;
   display: inline-block;
