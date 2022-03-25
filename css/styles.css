@@ -8,6 +8,14 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  text-align: center;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .jumbotron {
   padding-top: 20px;
@@ -30,6 +38,7 @@ h1 {
   background-color: lightgreen;
   display: inline-block;
   text-align: center;
+  text-decoration: underline;
 }
 
 .container {
