@@ -18,7 +18,8 @@ p {
 
 img {
   margin: auto;
-  display: inline-block;
+  padding: 10px;
+  display: block;
   border: 2px solid black;
   float: right;
   height: 550px;
